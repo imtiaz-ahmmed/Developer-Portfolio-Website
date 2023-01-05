@@ -1,6 +1,7 @@
 * {
     font-family: 'Open Sans', sans-serif;
     margin: 0%;
+
 }
 
 .btn-primary {
@@ -37,7 +38,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 
 .primary-colur {
@@ -137,13 +138,159 @@ main {
     color: #474747;
     font-size: 20px;
     font-weight: 400;
-    
+
 }
 
 .info-description {
     font-weight: 700;
     font-size: 20px;
     color: #757575;
-    
-    
+}
+
+/* What I DO sections styles */
+.what-i-do {
+    margin-top: 130px;
+
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 30px;
+
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    margin: 30px 0 20px 0;
+
+}
+
+.section-discription-what-i-do {
+
+    color: #757575;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    margin: 30px 200px 50px 200px;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+    text-align: justify;
+}
+
+/* Resume Styles  */
+
+.resume-title {
+    margin-top: 130px;
+    margin-bottom: 113px;
+    text-align: center;
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.resume-container {
+    display: flex;
+    gap: 40px
+}
+
+.resume-container .experience {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.resume-container .resume-details .title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 10px;
+
+}
+
+.resume-container .resume-details .description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.resume-details {
+    margin-bottom: 30px;
+}
+
+.resume-btn {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Footer Styles */
+
+
+.footer-section-container {
+    display: flex;
+    gap: 50px;
+    padding: 130px 200px;
+
+    max-width: 100%;
+    background-color: #FFF8F3;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+
+
+.footer-section {
+    width: 50%;
+}
+
+.footer-title {
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 28px;
+}
+
+.footer-description {
+    color: #474747;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.input-field {
+    width: 461px;
+    height: 10px;
+    margin-bottom: 24px;
+    border-radius: 3px;
+    border: none;
+    padding: 30px 18px;
+}
+
+.input-field-text-area {
+    width: 461px;
+    height: 180px;
+    margin-bottom: 24px;
+    border-radius: 3px;
+    border: none;
+    padding: 30px 18px;
+}
+
+.footer-section a {
+    margin-right: 24px;
+    text-decoration: none;
 }
